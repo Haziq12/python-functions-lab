@@ -1,8 +1,11 @@
+x = 6
 def sum_to(num):
   sum = 0
   for n in range(1, num + 1):
     sum += n
   return sum
+
+print(sum_to(x))
 
 n = [0, 34, 6, 23, 4, 5, 600]
 def largest(numbers):
